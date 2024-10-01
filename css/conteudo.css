@@ -1,0 +1,234 @@
+.titulo {
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+.introducao {
+    grid-column: 2;
+    font-size: 3em;
+    line-height: 1;
+    padding: 60px 10px;
+}
+
+.sobre {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    border-top: 2px solid #2c70ff;
+    border-bottom: 2px solid #2c70ff;
+    padding: 60px 0;
+    gap: 15px;
+}
+
+.sobre-info p {
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: rgba(44,44,44,0.);
+}
+
+.produtos {
+    grid-column: 2;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.produtos-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: flex-end;
+    gap: 15px;
+    margin-top: 60px;
+}
+
+.produtos-container h2{
+    font-size: 3em;
+    color: rgba(44,44,44,0.5);
+    background: #f7f7f7;
+    padding: 60px 20px;
+}
+
+.produtos-item1 {
+    grid-column: 1;
+    border-top: 8px solid #ae81ff;
+}
+
+.produtos-item2 {
+    grid-column: 2;
+    border-top: 8px solid #f9265e;
+}
+
+.produtos-item3 {
+    grid-column: 3;
+    border-top: 8px solid #66d9eb;
+}
+
+.preco-bg {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 960px 1fr;
+    background-color: #f7f7f7;
+}
+
+.preco {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-top: 2px solid #2c70ff;
+    border-bottom: 2px solid #2c70ff;
+    padding: 60px;
+}
+
+.preco-item1 {
+    grid-column: 1;
+    margin-top: 60px;
+    border: 4px solid white;
+    padding: 20px;
+    margin: 10px;
+    align-self: flex-end;
+}
+
+.preco-item2 {
+    grid-column: 2;
+    margin-top: 60px;
+    border: 4px solid white;
+    padding: 20px;
+    margin: 10px;
+    align-self: flex-end;
+}
+
+.preco-item3 {
+    grid-column: 3;
+    margin-top: 60px;
+    border: 4px solid white;
+    padding: 20px;
+    margin: 10px;
+    align-self: flex-end;
+}
+
+.preco h2 {
+    font-size: 3em;
+    color: #a4a4a4;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.preco span {
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    padding: 10px 0 5px 0;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+.preco sup {
+    font-size: 1.5rem;
+}
+
+.preco ul {
+    max-width: 300px;
+    margin: 20px auto;
+    font-size: 1.25em;
+    font-style: italic;
+    color: #7c7c7c;
+}
+
+.preco li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.preco li::after {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: blue;
+    border-radius: 50%;
+}
+
+.preco a {
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid;
+    color: #222;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.25em;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.qualidade {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 60px;
+}
+
+.qualidade-item1, .qualidade-item2, .qualidade-item3 {
+    margin: 30px;
+}
+
+.qualidade h2 {
+    color: #a4a4a4;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.qualidade p {
+    font-size: 1.25em;
+}
+
+.qualidade-item1::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: 10px;
+    background: #ae81ff;
+}
+
+.qualidade-item2::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: 10px;
+    background: #f9265e;
+}
+
+.qualidade-item3::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: 10px;
+    background: #66d9eb;
+}
+
+.newsletter {
+    grid-column: 2;
+}
+
+.footer {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 50px;
+    background-color: blue;
+}
+
+.footer p {
+    font-size: 2em;
+    color: royalblue;
+}

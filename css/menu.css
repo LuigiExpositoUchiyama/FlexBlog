@@ -1,0 +1,42 @@
+.menu-bg {
+    grid-column: 1 / 4;
+    background: #2c70ff;
+    display: grid;
+    grid-template-columns: 1fr 960px 1fr;
+}
+
+.menu {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 15px;
+    align-items: center;
+}
+
+.logo h1 {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+.menu-principal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-principal li a{
+    display: block;
+    padding: 10px;
+    color: white;
+    font-size: 1.125rem;
+    background: rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    transition: .1s;
+    text-decoration: none;
+    margin-right: 30px;
+    align-self: center;
+}
+
+.menu-principal li a:hover {
+    color: rgba(0, 0, 0, .5);
+}
